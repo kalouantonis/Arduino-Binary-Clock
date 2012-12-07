@@ -90,7 +90,7 @@ void loop()
       exit(1);
     }
     
-    delay(60); /* Wait one minute*/ 
+    delay(6000); /* Wait one minute*/ 
     minutes++;
     if(minutes == 61)
       hours++; minutes = 0;
