@@ -3,7 +3,7 @@
  * Use instructions                                                                 *
  *######################                                                            *
  * Connect LED in consecutive order                                                 *
- * So ---> Hour LED's start from pin 1 and end at 6, 1 being the binary value of 32,*
+ * So ---> Minute LED's start from pin 1 and end at 6, 1 being the binary value of 32,*
  *         2 being the binary value of 16                                           *
  *          etc.                                                                    *
  *                                                                                  *    
