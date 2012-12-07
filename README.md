@@ -1,5 +1,5 @@
 Arduino Binary clock
-####################
+--------------------
 
 Install instructions
 --------------------
