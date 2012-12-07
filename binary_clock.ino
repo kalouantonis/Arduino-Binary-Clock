@@ -84,7 +84,7 @@ void loop()
     int minute_val = minute_loop(minutes);
     int hour_val = hour_loop(hours);
     
-    if((minute_val != 0) && (hour_val != 0)) /* Check validation of data*/
+    if((minute_val != 0) || (hour_val != 0)) /* Check validation of data*/
     { 
       Serial.print("Error in minute or hour calculation: Return value not 0\n");
       exit(1);
