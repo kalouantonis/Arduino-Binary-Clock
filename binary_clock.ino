@@ -66,7 +66,7 @@ int hour_loop(int hours)
     j++;
     
   }  
-  return hours; /* Check that real_minutes is 0*/
+  return hours; /* Check that hours is 0*/
   
 }
 
