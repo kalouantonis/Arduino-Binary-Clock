@@ -1,6 +1,8 @@
 Arduino Binary clock
 --------------------
 
+Note: Format is in true binary and only uses hours and minutes
+
 Install instructions
 --------------------
 
