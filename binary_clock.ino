@@ -79,7 +79,7 @@ void loop()
   Serial.print("Enter hours\n");
   hours = Serial.read();
   
-  while(((minutes <= 61) || (minutes >= 0)) || ((hours <= 25) || (hours >= 0)))
+  while(((minutes <= 60) || (minutes >= 0)) || ((hours =< 24) || (hours >= 0)))
   {
     int minute_val = minute_loop(minutes);
     int hour_val = hour_loop(hours);
@@ -92,9 +92,9 @@ void loop()
     
     delay(6000); /* Wait one minute*/ 
     minutes++;
-    if(minutes == 61)
+    if(minutes > 60)
       hours++; minutes = 0;
-    if(hours == 25)
+    if(hours > 24)
       hours = 0;
   }
   Serial.print("Invalid input: You must enter minutes between 0 and 60 and hours between 0 and 24\n");
