@@ -79,7 +79,7 @@ void loop()
   Serial.print("Enter hours\n");
   hours = Serial.read();
   
-  while(((minutes <= 60) || (minutes >= 0)) || ((hours =< 24) || (hours >= 0)))
+  while(((minutes <= 60) || (minutes >= 0)) || ((hours <= 24) || (hours >= 0)))
   {
     int minute_val = minute_loop(minutes);
     int hour_val = hour_loop(hours);
