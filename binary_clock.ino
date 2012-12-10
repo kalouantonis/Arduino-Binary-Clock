@@ -29,8 +29,9 @@ void setup()
 int minute_loop(int minutes)
 {
  /* Move minutes to corresponding LED Pin(s) */ 
-  int i, j;
- for(i = 32; i < 6; i/2)
+  int i;
+  int j = 0;
+ for(i = 32; j < 6; i/2)
  { 
    int curr_led = 6 - j;
    if(minutes == 0)
@@ -51,8 +52,9 @@ int minute_loop(int minutes)
 int hour_loop(int hours)
 {
  /* Move hours to corresponding LED pin(s) */ 
- int i, j;
- for(i = 8; i < 4; i/2)
+ int i;
+ int j = 0;
+ for(i = 8; j < 4; i/2)
  { 
    int curr_led = 10 - j;
    if(hours == 0)
