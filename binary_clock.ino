@@ -28,7 +28,6 @@ const unsigned long M60 = 60000000; // 60 million microsenconds = 1 minute
 
  
 void setup()
-
 {
 
   /* Initialise pins -- set to output*/
@@ -46,7 +45,6 @@ void setup()
 
 void loop()
 {
-
   lastUpdate = micros();
 
   if(++minutes > 59)
@@ -85,7 +83,6 @@ void loop()
  
 
 void minute_loop(int mins)
-
 {
 
   /* Move minutes to corresponding LED Pin(s) */
@@ -111,7 +108,6 @@ void minute_loop(int mins)
  
 
 void hour_loop(int hs)
-
 {
 
   /* Move hours to corresponding LED pin(s) */
