@@ -16,6 +16,6 @@ Install instructions
 
 5) Follow input instructions   
 
-Developed by Antonis Kalou (kalouantonis@gmail.com)
---------------------------------------------------
+Developed by Antonis Kalou (kalouantonis@gmail.com) and Anthony Clays
+---------------------------------------------------------------------
 under the GPL v3 Licence (see repository for full licence)
